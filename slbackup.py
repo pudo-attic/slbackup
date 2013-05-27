@@ -10,8 +10,6 @@ URL_BASE = "http://apiv1.scribblelive.com/api/rest"
 WEBSITE = 907
 
 
-#http://apiv1.scribblelive.com/website/907/events?Token=4BA1IOGz
-
 def get_event(event):
     #pprint(event)
     print (event.get('Id'), event.get('Title'), event.get('Pages'))
