@@ -68,6 +68,6 @@ def get_events():
 
 
 if __name__ == '__main__':
-    #get_events()
+    get_events()
     for flush_id in FLUSH.split(','):
         flush_event(int(flush_id))
