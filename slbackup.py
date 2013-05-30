@@ -6,7 +6,7 @@ TOKEN = os.environ.get('SCRIBBLELIVE_TOKEN')
 USERNAME = os.environ.get('SCRIBBLELIVE_USERNAME')
 PASSWORD = os.environ.get('SCRIBBLELIVE_PASSWORD')
 FLUSH = os.environ.get('SCRIBBLELIVE_FLUSH')
-ARCHIVE = 'events'
+ARCHIVE = os.environ.get('SCRIBBLELIVE_DIR')
 URL_BASE = "http://apiv1.scribblelive.com/api/rest"
 WEBSITE = 907
 
